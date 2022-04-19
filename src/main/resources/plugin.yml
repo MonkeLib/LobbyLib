@@ -1,0 +1,4 @@
+name: LobbyLib
+version: '${project.version}'
+main: com.kasp.lobbylib.Main
+description: The most easy and simple to use yet powerful lobby plugin available

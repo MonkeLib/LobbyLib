@@ -1,0 +1,48 @@
+
+#########################
+# Welcome to the setup! #
+#########################
+
+# if you have any suggestions / bug reports / questions
+# please join our discord server https://discord.gg/WU74r7D2xY
+
+# Messages' prefix
+Prefix: '&8[&aLobby&6Lib&8] '
+
+# Teleport players to spawn location every time they join the server
+Tp-on-join: false
+
+# Disable default server join messages
+Disable-join-msg: false
+
+# Disable default server leave messages
+Disable-leave-msg: false
+
+# Use custom join and leave messages
+# If you enable them you can use:
+# {%player} to get the player's name
+# {%online} to get the player count
+Custom-join-msg:
+  enabled: false
+  formatting: '&6{%player}&7 has joined. &e{%online} players online now'
+Custom-leave-msg:
+  enabled: false
+  formatting: '&6{%player}&7 has left. &e{%online} players online now'
+
+# Custom messages formatting
+# If you enable it you can use:
+# {%player} to get the player's name
+# {%message} to get the player's message
+Custom-msg-formatting:
+  enabled: false
+  formatting: '&e{%player}&6: &7{%message}'
+
+# Clear players' inventories and give custom items (lobbyitems.yml) on join
+Lobby-items: false
+
+# Double jump in lobby
+Double-jump:
+  enabled: false
+  launch-speed: 1
+  launch-height: 0.9
+  allow-in-air: false
